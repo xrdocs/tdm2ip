@@ -3,6 +3,10 @@ published: true
 date: '2019-12-05 09:37 +0530'
 title: 'A look into Business Benefits of Network Modernisation '
 author: Tejas Lad
+excerpt: >-
+  This blog discusses business challenges the operators face today due to legacy
+  network architecture. It further discusses the benefits operators can gain by
+  migrating to modernised network
 ---
 # Introduction
 
