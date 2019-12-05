@@ -1,6 +1,3 @@
-[submodule "_data"]
-	path = _data
-	url = https://wwwin-github.cisco.com/SPNSTME/_data.git
 [submodule "images/avatars"]
 	path = images/avatars
 	url = https://github.com/xrdocs/avatars.git
