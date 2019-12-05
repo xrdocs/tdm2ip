@@ -15,10 +15,10 @@ feature_row1:
 feature_row2:
   - image_path: blog.png
     alt: "fully responsive"
-    title: "Blogs"
+    title: "A look into Business Benefits of Network Modernisation"
     excerpt: 'Periodic Blogs to keep you updated on the latest tools, applications, events and architectural changes'
     url: "/blogs"
-    btn_label: "Check out the Blogs!"
+    btn_label: "Read Article"
     btn_class: "btn--inverse"
 feature_row3:
   - image_path: tutorial-board.jpg
@@ -35,4 +35,4 @@ feature_row3:
 
 {% include feature_row id="feature_row3" type="left" %}
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" type="right" %}
