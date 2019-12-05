@@ -16,7 +16,7 @@ feature_row2:
   - image_path: Network Modernization.jpg
     alt: "fully responsive"
     title: "A look into Business Benefits of Network Modernisation"
-    excerpt: 'Legacy networks have served well for operators in the past. But now they are facing challenges due to increased OPeEX. Explore how modernizing the transport network can benefit the operators'
+    excerpt: 'Legacy networks have served well for operators in the past. But now they are facing challenges due to increased OPeEX. Explore how modernizing the transport network can benefit the operators.'
     url: "/blogs/network-modernization/"
     btn_label: "Read Article"
     btn_class: "btn--inverse"
