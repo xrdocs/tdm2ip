@@ -13,7 +13,7 @@ feature_row1:
     btn_label: "Check out the docs!"
     btn_class: "btn--inverse"
 feature_row2:
-  - image_path: blog.png
+  - image_path: Network Modernization.jpg
     alt: "fully responsive"
     title: "A look into Business Benefits of Network Modernisation"
     excerpt: 'Periodic Blogs to keep you updated on the latest tools, applications, events and architectural changes'
