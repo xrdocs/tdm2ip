@@ -44,9 +44,13 @@ G-ACH is used by MPLS Flex LSP to carry management and potentially other traffic
 Channel Type value for fault OAM is 0x58.GAL Label value 13 is used for indicating to the device that packet contains G-ACH and that the contents should be processed by the local device
 GAL is not used for forwarding decision such as QoS.BFD and OAM packets can be encapsulated with GAL/G-ACH
 
+![Screenshot 2019-12-09 at 3.05.47 PM.png]({{site.baseurl}}/images/Screenshot 2019-12-09 at 3.05.47 PM.png)
 
 
 The OAM messages are used for fault management, connection verification and continuity check.
 Fault OAM messages are encapsulated with GAL/G-ACH, and are inserted in bidirectional LSPs and sent in the direction away from the fault. Initially 3 messages are transmitted at an interval of 1 second. Subsequent messages are transmitted at the refresh interval specified in the message. A fault is assumed to be cleared either of when an OAM message times out after waiting for 3.5 * refresh interval. Fault message are received with R-bit is set to 1
 
 # Unique Advantages of Cisco CEM Solution
+
+![Screenshot 2019-12-09 at 3.08.08 PM.png]({{site.baseurl}}/images/Screenshot 2019-12-09 at 3.08.08 PM.png)
+
