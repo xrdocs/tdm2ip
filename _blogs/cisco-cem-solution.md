@@ -12,3 +12,8 @@ excerpt: >-
 In the previous [blog](https://xrdocs.io/tdm2ip/blogs/network-modernization/ "blog"), we discussed the business challenges the operators are facing and how moving away from the legacy networks can benefit them. In this blog, we will look into Cisco CEM Solution and how it can benefit the operators.
 
 # Figure 1: Cisco CEM Solution
+
+![cisco-cem-soln.png]({{site.baseurl}}/images/cisco-cem-soln.png)
+
+
+# Figure 2: MPLS Flex LSP
