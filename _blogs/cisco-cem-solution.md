@@ -35,4 +35,23 @@ Tunnel is configured with matching association ID, association source, optional 
 
 # MPLS OAM
 
+MPLS OAM supports provisioning and maintenance of MPLS bidirectional LSPs. Generic Associated Channel (G-Ach) is the control mechanism associated with MPLS LSPs. G-ACh Label (GAL) (Label 13) is taken from the reserved MPLS label space.
+
+G-ACH: is used by MPLS-TP to carry management, OAM and potentially other traffic across MPLS-TP LSP
+Channel Type value for fault OAM is 0x58
+GAL: Label value 13 is used for indicating to the device that packet contains G-ACH and that the contents should be processed by the local device
+GAL is not used for forwarding decision such as QoS
+TTL of GAL is not examined when processing GAL
+TTL will be set 255 in XR implementation at ingress
+BFD and OAM packets can be encapsulated with GAL/G-ACH
+
+
+The OAM messages are used for fault management, connection verification, continuity check and other functions.
+Fault OAM messages are encapsulated with GAL/G-ACH, and are inserted in bidirectional LSPs and sent in the direction away from the fault
+Transmission of any OAM messages:
+Initially 3 messages are transmitted at an interval of 1 sec 
+Subsequent messages are transmitted at the refresh interval specified in the message
+A fault is assumed to be cleared either of when:
+OAM message times out after waiting for 3.5 * refresh interval
+Fault message are received with R-bit is set to 1
 
