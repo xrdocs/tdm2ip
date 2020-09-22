@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+- 2.4
+branches:
+  only:
+  - gh-pages
+script:
+- bundle exec jekyll build --config _config.travis.yml
+- bundle exec htmlproofer ./_site --external_only --only-4xx --url-ignore \"/#.*/,/getting-started\"
